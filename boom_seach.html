@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>지뢰 찾기</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+<input id="hor" type="number" value="10" placeholder="가로">
+<input id="ver" type="number" value="10" placeholder="세로">
+<input id="mine" type="number" value="20" placeholder="지뢰">
+<button id="exec">실행</button>
+
+<table id="area">
+        <thead>
+            <tr>
+                <td>
+                    <span id="timer">0</span>초
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+    <script src="boom_search.js"></script>
+
+</body>
+</html>
